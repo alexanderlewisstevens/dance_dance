@@ -1,0 +1,12 @@
+[
+  {
+    "key": "cmd+enter",
+    "command": "vscode-sonic-pi.run",
+    "when": "editorLangId == \"sonic-pi\""
+  },
+  {
+    "key": "cmd+.",
+    "command": "vscode-sonic-pi.stop",
+    "when": "editorLangId == \"sonic-pi\""
+  }
+]

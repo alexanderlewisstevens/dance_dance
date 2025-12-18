@@ -1,0 +1,6 @@
+live_loop :beat do
+  sample :bd_haus, amp: 1.2
+  sleep 0.5
+  sample :sn_generic, amp: 0.7
+  sleep 0.5
+end

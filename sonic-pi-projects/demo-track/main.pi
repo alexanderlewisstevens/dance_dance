@@ -1,0 +1,13 @@
+# Entry buffer: run this file (Cmd+Enter) to start the demo loops.
+
+use_bpm 120
+
+# Pull in drum loop from a separate file to keep things tidy.
+load "live_loops/beat.pi"
+
+live_loop :melody do
+  use_synth :blade
+  play scale(:e3, :minor_pentatonic).choose, release: 0.2, cutoff: rrand(80, 120)
+  sleep 0.25
+end
+

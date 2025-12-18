@@ -1,0 +1,17 @@
+{
+  "files.associations": {
+    "*.pi": "sonic-pi",
+    "*.spi": "sonic-pi",
+    "*.sonicpi": "sonic-pi",
+    "*.rb": "ruby"
+  },
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.snippetSuggestions": "inline",
+  "editor.wordBasedSuggestions": "off",
+  "[sonic-pi]": {
+    "editor.formatOnSave": false
+  },
+  "vscode-sonic-pi.launchSonicPiServerAutomatically": "never",
+  "vscode-sonic-pi.runFileWhenRunSelectedIsEmpty": "always"
+}
