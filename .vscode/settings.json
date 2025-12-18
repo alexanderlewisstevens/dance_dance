@@ -12,6 +12,8 @@
   "[sonic-pi]": {
     "editor.formatOnSave": false
   },
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 200,
   "vscode-sonic-pi.launchSonicPiServerAutomatically": "never",
   "vscode-sonic-pi.runFileWhenRunSelectedIsEmpty": "always"
 }
